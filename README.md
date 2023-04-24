@@ -9,17 +9,17 @@ curl exammple :-
 
 ```curl --location 'localhost:8000/user/userdetails' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6ImRpdnlhIiwiaWF0IjoxNTE2MjM5MDIyfQ.336blejzlkd-5SL_wCoZ7CIf6yZEmDXXihITNL4buXE' \
---data ''```
+--data ''
 
-```curl --location 'localhost:8000/auth/login' \
+curl --location 'localhost:8000/auth/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "emailOrUserName":"divyaNigam132",
     "password":"divya@123"
-}'```
+}'
 
 
-```curl --location 'localhost:8000/auth/signup' \
+curl --location 'localhost:8000/auth/signup' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "name":"Divya Nigam",
